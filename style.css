@@ -1,0 +1,806 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+  --special-color: #FFB548;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1120px;
+  position: relative;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 260px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  text-align: center;
+  background-color: var(--special-color);
+  padding: 0 0 0 12px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+}
+
+.main-container .btn {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 261px;
+  margin-left: 415px;
+}
+
+.main-container {
+  height: 960px;
+}
+
+.main-container .photo-swiper {
+  display: flex;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-container .photo-swiper .photo img {
+  height: 980px;
+  width: 100vw;
+}
+
+.main-container header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main-container header .logo {
+  margin-right: 146px;
+}
+
+.main-container header .menu {
+  padding: 0;
+  margin: 0 178px 0 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.main-container header .menu li a {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 32px;
+  transition: color 0.3s;
+}
+
+.main-container header .menu li a:hover {
+  color: var(--special-color);
+}
+
+.main-container header .translate {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 16.34px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #fff;
+  height: 28;
+  border-right: 0.87px solid #FFFFFF;
+  padding-right: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.main-container header .translate .arrow {
+  margin-left: 6px;
+}
+
+.main-container header .registration {
+  display: flex;
+}
+
+.main-container header .registration .xbox {
+  margin-right: 17px;
+}
+
+.main-container header .registration .xbox path {
+  fill: var(--special-color);
+  transition: fill 0.3s;
+}
+
+.main-container header .registration .steam path {
+  fill: var(--special-color);
+  transition: fill 0.3s;
+}
+
+.main-container header .registration .xbox:hover path {
+  fill: #fff;
+}
+
+.main-container header .registration .steam:hover path {
+  fill: #fff;
+}
+
+.main-container .title {
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+  margin: 168px 0 7px 0;
+}
+
+.main-container .title2 {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0 28px 0;
+  color: #fff;
+}
+
+.main-container button {
+  margin-bottom: 400px;
+}
+
+.main-container button .text {
+  margin: 0;
+}
+
+.main-container button .price {
+  width: 80px;
+  margin-left: 17px;
+  border-left: 0.87px solid #1A1917;
+}
+
+.main-container .scroll-down {
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-container .scroll-down .text1 {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: justified;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-container .scroll-down .arrow {
+  text-align: center;
+  stroke: #fff;
+}
+
+.main-container .scroll-down:hover .text1 {
+  color: var(--special-color);
+}
+
+.main-container .scroll-down:hover .arrow {
+  stroke: var(--special-color);
+}
+
+.description {
+  background-image: url('images/37cf101cb102c49247ea3a4b4eca897e.png');
+  background-color: rgba(0, 0, 0, 0.829);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1048px;
+  width: 100%;
+  padding-top: 200px;
+}
+
+.description .content {
+  display: flex;
+  width: 1100px;
+}
+
+.description .title {
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+
+.description .title1 {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.description .title2 {
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-align: left;  
+}
+
+.description .text1 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justified; 
+  color: #fff; 
+}
+
+.description .right-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 50%;
+}
+
+.description .right-content .image {
+  height: 610px;
+  width: 502px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.description .right-content .arrow-left {
+  transform: rotate(180deg);
+  cursor: pointer;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 100;
+  stroke: #FFFFFF;
+}
+
+.description .right-content .arrow-right {
+  cursor: pointer;
+  position: absolute;
+  top: 200px;
+  right: -70px;
+  z-index: 100;
+  stroke: #FFFFFF;
+}
+
+.description .right-content .arrow-right:hover {
+  stroke: var(--special-color);
+}
+
+.description .right-content .arrow-left:hover {
+  stroke: var(--special-color);
+}
+
+.description .right-content .images {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.image1 {
+  background-image: url('https://live.verstaem.online/sos/img/bg-first.webp');
+  top: -100px;
+  right: -28px;
+  
+}
+.image2 {
+  background-image: url('https://live.verstaem.online/sos/img/bg-second.jpg');
+  top: -100px;
+  right: -60px;
+  
+}
+
+.image3 {
+  background-image: url('https://live.verstaem.online/sos/img/bg-third.jpg');
+  top: -100px;
+  right: -80px;
+
+}
+
+.image4 {
+  background-image: url('https://live.verstaem.online/sos/img/bg-four.jpg');
+  top: -100px;
+  right: -90px;
+}
+
+
+.container-features {
+  padding-top: 260px;
+  padding-left: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://live.verstaem.online/sos/img/bg-third.jpg');
+  height: 960px;
+}
+
+.title1 {
+  margin: 0 0 8px 0;
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #fff;
+}
+
+.title2 {
+  margin: 0 0 80px 0;
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #fff;
+}
+
+.container-features .feature {
+  position: relative;
+  cursor: pointer;
+}
+
+.container-features .feature .title {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #FFB548;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+.container-features .feature .text1 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justified;
+  color: #fff;
+  width: 400px;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  border: 1.31px solid #fff;
+  position: absolute;
+  top: 5px;
+  left: -28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.circle.active {
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.line {
+  width: 0px;
+  height: 0px;
+  transition: 0.4s;
+}
+
+.line.active {
+  margin-top: 130px;
+  height: 141px;
+  border: 1.96px solid #FFFFFF;
+  transition: 0.4s;
+}
+
+.container-system-requirements {
+  background-image: url('https://live.verstaem.online/sos/img/bg-four.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 145px;
+  height: 960px;
+}
+
+.container-system-requirements .title {
+  text-align: center;
+}
+
+.container-system-requirements .system-requirements {
+  display: flex;
+  flex-wrap: wrap;
+  width: 574px;
+}
+
+.container-system-requirements .characteristic {
+  border: 1px solid #979797;
+  padding: 16px 0 0 16px;
+}
+
+.container-system-requirements .characteristic .name {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--special-color);
+  text-transform: uppercase;
+}
+
+.container-system-requirements .characteristic .value {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #fff;  
+  margin-top: 6px;
+}
+
+.container-system-requirements .short {
+  height: 125px;
+  width: 287px;
+}
+
+
+.container-system-requirements .long {
+  height: 140px;
+  width: 574px;
+}
+
+.press-quotes {
+  background-color: #050505;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.press-quotes .content {
+  display: flex;
+}
+
+.press-quotes .left-content {
+  padding-top: 144px;
+  width: 437px;
+  margin-right: 155px;
+}
+
+.press-quotes .text1 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.press-quotes button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.press-quotes .quote {
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  background-color: #FFFFFF14;
+  border-radius: 10px;
+  padding: 15px 20px 20px 16px;
+  margin-bottom: 30px;
+}
+
+.press-quotes .quote .account {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.press-quotes .quote .avatar {
+  height: 61px;
+  width: 61px;
+  border-radius: 100%;
+  margin-right: 22px;
+  position: relative;
+  z-index: 2;
+}
+
+.press-quotes .quote .name {
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--special-color);
+}
+
+.press-quotes .quote .user-description {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justified;
+  color: #ffffff5e; 
+}
+.press-quotes .quote .icon-twitter {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.press-quotes .quote .icon-twitter svg {
+  fill: #ffffff5e;
+}
+
+.press-quotes .quote .icon-twitter:hover svg {
+  fill: var(--special-color);
+}
+
+.press-quotes .quote .comment {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+  color: #fff;
+}
+
+.press-quotes .quote .date {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  margin-top: auto;
+  color: #ffffff5e; 
+  margin-top: 18px;
+}
+
+.press-quotes .quote1, .press-quotes .quote3 {
+  margin-left: 106px;
+}
+
+.press-quotes .quote .circle {
+  height: 63px;
+  width: 63px;
+  border-radius: 100%;
+  background-color: var(--special-color);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  z-index: 1;
+  border: 0;
+}
+
+.subscription-container {
+  padding-left: 670px;
+  background-color: #050505;
+  height: 840px;
+  padding-top: 220px;
+}
+
+.subscription-container img {
+  position: absolute;
+  top: -150px;
+  left: -450px;
+}
+
+.subscription-container .text {
+  font-family:'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  width: 644px;
+}
+
+.subscription-container .subscribe {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.subscription-container .email {
+  background-color: #FFFFFF14;
+  height: 60px;
+  width: 367px;
+  padding-left: 21px;
+  padding-top: 6px;
+}
+
+.subscription-container .text1 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;  
+  color: #ffffff5e;
+  margin-bottom: 3px;
+}
+
+.subscription-container input {
+  background-color: #ffffff00;
+  border: 0;
+  outline: 0;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+  color: var(--special-color);
+  width: 367px;
+}
+
+.subscription-container input::placeholder {
+  color: #ffb6486b;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;  
+}
+
+.subscription-container button {
+  justify-content: center;
+  align-items: center;
+  margin-left: 17px;
+}
+
+footer {
+  background-color: #050505;
+}
+
+footer .floor1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 0.87px solid #ffffff52;
+  width: 110%;
+}
+
+footer .floor1 .menu {
+  display: flex;
+}
+
+footer .floor1 .logo {
+  margin-right: 146px;
+}
+
+footer .floor1 .menu {
+  padding: 0;
+  margin: 0 178px 0 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  white-space: nowrap;
+}
+
+footer .floor1 .menu li a {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 32px;
+  transition: color 0.3s;
+}
+
+footer .floor1 .menu li a:hover {
+  color: var(--special-color);
+}
+
+footer .social-media {
+  display: flex;
+  align-items: center;
+}
+
+footer .floor1 .icon {
+  margin-right: 50px;
+}
+
+footer .floor1 .icon svg {
+  fill: white;
+  transition: 0.4s;
+}
+
+footer .floor1 .icon-facebook:hover svg {
+  fill: #276aee ;
+}
+
+footer .floor1 .icon-twitter:hover svg {
+  fill: #1DA1F2;
+}
+
+footer .floor1 .icon-youtube:hover svg {
+  fill: #FF1313;
+}
+
+footer .floor1 .icon-twitch:hover svg {
+  fill: #6441a5;
+}
+
+footer .floor2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+  width: 110%;
+  padding-bottom: 22px;
+}
+
+footer .floor2 .company {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  color: #ffffff4d;
+}
+
+footer .floor2 .text1 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.34px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #fff;
+}
