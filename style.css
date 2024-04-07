@@ -804,3 +804,11 @@ footer .floor2 .text1 {
   text-align: right;
   color: #fff;
 }
+
+
+@media(max-width:1440px) {
+  .subscription-container {
+    padding-left: 480px;
+
+  }
+}
