@@ -809,6 +809,17 @@ footer .floor2 .text1 {
 @media(max-width:1440px) {
   .subscription-container {
     padding-left: 480px;
+  }
 
+  footer .content {
+    width: 1200px;
+  }
+
+  footer .floor1 {
+    width: 102%;
+  }
+
+  footer .floor2 {
+    width: 102%;
   }
 }
