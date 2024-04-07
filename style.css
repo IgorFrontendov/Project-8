@@ -637,7 +637,7 @@ button:hover {
   left: -450px;
 }
 
-.subscription-container .text {
+.subscription-container .text1 {
   font-family:'Open Sans';
   font-size: 18px;
   font-weight: 400;
@@ -662,7 +662,7 @@ button:hover {
   padding-top: 6px;
 }
 
-.subscription-container .text1 {
+.subscription-container .text2 {
   font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
